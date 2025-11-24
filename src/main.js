@@ -29,19 +29,6 @@ import './style.css';
 
 // Component Injection
 const headerHTML = `
-  <div class="top-bar">
-    <div class="container">
-      <div>
-        <span>📞 +91 94983 37083</span>
-        <span style="margin-left: 1.5rem;">✉️ Kompactradingcompany@gmail.com</span>
-      </div>
-      <div>
-        <a href="/contact.html">Request Quote</a>
-        <a href="/about.html">Careers</a>
-        <a href="#">Partner Login</a>
-      </div>
-    </div>
-  </div>
   <div class="main-nav">
     <div class="container">
       <a href="/" class="logo">
