@@ -1,5 +1,4 @@
 import './style.css';
-import { createIcons, icons } from 'lucide';
 
 // Component Injection
 const headerHTML = `
@@ -146,7 +145,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Initialize Lucide Icons
     try {
-      createIcons({ icons });
+      if (typeof lucide !== 'undefined') {
+        lucide.createIcons();
+      }
     } catch (e) {
       console.error('Failed to initialize Lucide icons:', e);
     }
