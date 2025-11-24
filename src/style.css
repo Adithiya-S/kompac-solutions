@@ -104,6 +104,11 @@ p {
   padding: 0 var(--spacing-md);
 }
 
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .btn {
   display: inline-flex;
   align-items: center;
@@ -308,20 +313,6 @@ footer a:hover {
   transform: translateY(0);
 }
 
-/* Parallax Section */
-.parallax-section {
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.parallax-overlay {
-  background: rgba(255, 255, 255, 0.92);
-  padding: var(--spacing-lg) 0;
-}
-
 /* Expertise Cards */
 .expertise-card {
   background: white;
@@ -443,6 +434,12 @@ footer a:hover {
   color: var(--color-text-light);
   line-height: 1.6;
   margin-bottom: 0;
+}
+
+.breadcrumbs {
+  background-color: var(--color-secondary);
+  padding: 1rem 0;
+  font-size: 0.875rem;
 }
 
 .breadcrumbs a {
